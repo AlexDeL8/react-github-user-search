@@ -1,0 +1,70 @@
+.UserCard {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  // display: none;
+  background: rgb(255,120,0);
+  background: linear-gradient(145deg, rgba(255,120,0,1) 0%, rgba(255,255,180,1) 50%, rgba(85,145,255,1) 100%);
+}
+
+.UserDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  p {
+    margin: 3px;
+  }
+
+}
+
+#UserAvatar {
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+#UserName {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#LocationIcon {
+  height: 20px;
+  margin-right: 8px;
+}
+
+#UserLocation {
+  font-size: 20px;
+  color: rgb(70, 70, 70);
+}
+
+.UserInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.UserInfoTile {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  background-image: url("../../images/cake-icon.png");
+}
+
+.TileTitle {
+
+}
+
+.TileInfo {
+
+}
+
+.TileIcon {
+  height: 40px;
+}
